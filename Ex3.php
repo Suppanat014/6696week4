@@ -124,22 +124,11 @@
                 );
             });
         });
-        $(function() {
-            $('#alert3').click(function() {
-                Swal.fire(
-                    'Reset!',
-                    'You clicked the button!',
-                    'success'
-                );
-            });
-        });
         
     </script>
     
 <br>
-<button type="button" class="btn btn-success"id="alert">Submit</button>
-<button type="button" class="btn btn-danger"id="alert2">Cancer</button>
-<br>
-<br><button type="button" class="btn btn-dark"id="alert3">Reset</button>
+<button type="submit" class="btn btn-success"id="alert">Submit</button>
+<button type="reset" class="btn btn-danger"id="alert2">Cancer</button>
 
 </html>
